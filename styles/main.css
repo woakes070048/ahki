@@ -66,10 +66,10 @@ h2.comingsoonlocal {
 .navbar .navbar-nav li:first-child a {
   padding-left: 0px;
 }
-.navbar .navbar-collapse {
+.collapse-active {
   text-align: center;
 }
-.navbar .navbar-collapse li a {
+.collapse-active .navbar-nav li a {
   padding-left: 0px;
 }
 
