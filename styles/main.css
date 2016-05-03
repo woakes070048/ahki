@@ -44,7 +44,7 @@ img.ahkilogo, img.locallogo {
 .jumbotron-transp {
   background-color: transparent;
 }
-.thingslike, .team {
+.new-section {
   border-top: 1px solid #ededed;
 }
 .team > .row:first-child {
