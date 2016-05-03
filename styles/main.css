@@ -33,13 +33,19 @@ img.ahkilogo, img.locallogo {
 .jumbotron-transp {
   background-color: transparent;
 }
+.thingslike, .team {
+  border-top: 1px solid #ededed;
+}
+.team > .row:first-child {
+  padding-top: 30px;
+}
 .thingslike img {
   border-radius: 8px;
 }
 .thingslike h3 {
   margin-bottom: 20px;
 }
-div.comingsoonlocal {
+div.local {
   position: relative;
   width: 100%; /* for IE 6 */
 }
@@ -196,4 +202,9 @@ All transitions 0.3s */
   transform: rotate(0);
   -ms-transform: rotate(0);
   -webkit-transform: rotate(0)
+}
+
+footer {
+  border-top: 1px solid #ededed;
+  padding-top: 10px;
 }
