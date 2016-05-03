@@ -1,12 +1,46 @@
+/*
+Green: 036646
+*/
 
 h1 {
   font-family: 'Pacifico', cursive;
 }
-img {
-  border-radius: 8px;
+body a {
+  color: black;
+  font-weight: bold;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out
 }
-img.ahkilogo {
+body a:hover {
+  color: #036646;
+  text-decoration: none;
+}
+body a:visited {
+  text-decoration: none;
+}
+img.ahkilogo, img.locallogo {
   height: 200px;
+}
+div.comingsoonlocal {
+  position: relative;
+  width: 100%; /* for IE 6 */
+}
+img.comingsoonlocal {
+  width: 100%;
+}
+h2.comingsoonlocal {
+  color: white;
+  font-size: 4em;
+  position: absolute;
+  top: 27%;
+  left: 0;
+  width: 100%;
+}
+@media only screen and (min-width: 768px) {
+  h2.comingsoonlocal {
+    font-size: 10em;
+    top: 29%;
+  }
 }
 .jumbotron-transp {
   background-color: transparent;
@@ -16,6 +50,9 @@ img.ahkilogo {
 }
 .header h4 {
   font-weight: 200;
+}
+.header {
+  padding-bottom: 20px;
 }
 
 .navbar .navbar-nav {
@@ -32,6 +69,10 @@ img.ahkilogo {
 .navbar .navbar-collapse {
   text-align: center;
 }
+.navbar .navbar-collapse li a {
+  padding-left: 0px;
+}
+
 
 
 
