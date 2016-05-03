@@ -33,7 +33,12 @@ img.ahkilogo {
   float: none;
   vertical-align: top;
 }
-
+.navbar .navbar-nav li a {
+  padding-left: 130px;
+}
+.navbar .navbar-nav li:first-child a {
+  padding-left: 0px;
+}
 .navbar .navbar-collapse {
   text-align: center;
 }
