@@ -1,1 +1,1 @@
-This is a template for Peter Croce's web design, development, and hosting business.
+Ahki is a website for vendors and consumers who want to feel good about where their dollars go. 
