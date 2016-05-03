@@ -5,6 +5,9 @@ Green: 036646
 h1 {
   font-family: 'Pacifico', cursive;
 }
+p, h2, h3, h4 {
+  font-family: 'Raleway', sans-serif;
+}
 body a {
   color: black;
   font-weight: bold;
@@ -17,6 +20,9 @@ body a:hover {
 }
 body a:visited {
   text-decoration: none;
+}
+.thingslike img {
+  border-radius: 8px;
 }
 img.ahkilogo, img.locallogo {
   height: 200px;
