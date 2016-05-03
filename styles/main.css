@@ -1,4 +1,5 @@
 /*
+Colors and notes
 Green: 036646
 */
 
@@ -20,6 +21,16 @@ body a:hover {
 }
 body a:visited {
   text-decoration: none;
+}
+.btn.btn-transparent {
+background-color: transparent;
+border: 1px solid #036646;
+color: #036646;
+}
+.btn.btn-transparent:hover {
+background-color: rgba(12, 12, 12, 0.15);
+border: 1px solid #036646;
+color: #036646;
 }
 img.ahkilogo, img.locallogo {
   height: 200px;
