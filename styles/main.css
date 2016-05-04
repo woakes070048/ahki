@@ -2,7 +2,6 @@
 General styles first, page-specific styles noted. Nav styles at bottom.
 -- Colors --
 Green link hover: #036646 (taken from Daniele's Ahki logo green)
-Orange nav hover color: #f7c468
 Gray section divider color: #ededed
 Built by Peter Croce. pcroce.com
 */
@@ -136,7 +135,7 @@ h2.comingsoonlocal {
 
 /* Navbar
 Nav gray color: 3d3d3d
-Hover gold color: f7c468
+Hover gold color: 036646
 All transitions 0.3s */
 .navbar {
   background-color: transparent;
@@ -193,13 +192,14 @@ All transitions 0.3s */
 .navbar .navbar-header a:focus,
 .navbar .navbar-header i:hover,
 .navbar .navbar-header i:focus {
-  color: #f7c468;
+  color: #036646;
+  background-color: #ededed;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out
 }
 /* .navbar-toggle is the button, parent of the .icon-bar */
 .navbar .navbar-toggle:hover > .icon-bar {
-  background-color: #f7c468;
+  background-color: #036646;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out
 }
