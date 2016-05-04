@@ -50,6 +50,9 @@ img.ahkilogo, img.locallogo {
 .team > .row:first-child {
   padding-top: 30px;
 }
+.thingslike {
+  padding: 20px 0px;
+}
 .thingslike img {
   border-radius: 8px;
 }
