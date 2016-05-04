@@ -50,6 +50,7 @@ img.ahkilogo, img.locallogo {
 }
 .new-section {
   border-top: 1px solid #ededed;
+  padding-bottom: 15px;
 }
 
 /* Home Page */
