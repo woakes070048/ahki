@@ -13,7 +13,7 @@ h1 {
 p, h2, h3, h4 {
   font-family: 'Raleway', sans-serif;
 }
-body a {
+body a, li {
   color: black;
   font-weight: bold;
   -webkit-transition: all 0.3s ease-in-out;
@@ -27,14 +27,14 @@ body a:visited {
   text-decoration: none;
 }
 .btn.btn-transparent {
-background-color: transparent;
-border: 1px solid #036646;
-color: #036646;
+  background-color: transparent;
+  border: 1px solid #036646;
+  color: #036646;
 }
 .btn.btn-transparent:hover {
-background-color: rgba(12, 12, 12, 0.15);
-border: 1px solid #036646;
-color: #036646;
+  background-color: rgba(12, 12, 12, 0.15);
+  border: 1px solid #036646;
+  color: #036646;
 }
 img.ahkilogo, img.locallogo {
   height: 200px;
@@ -166,17 +166,17 @@ All transitions 0.3s */
   float: none;
   vertical-align: top;
 }
-.navbar .navbar-nav li a {
-  padding-left: 130px;
+.navbar .navbar-nav li {
+  margin-left: 130px;
 }
-.navbar .navbar-nav li:first-child a {
-  padding-left: 0px;
+.navbar .navbar-nav li:first-child {
+  margin-left: 0px;
 }
 .collapse-active {
   text-align: center;
 }
-.collapse-active .navbar-nav li a {
-  padding-left: 0px;
+.collapse-active .navbar-nav li {
+  margin-left: 0px;
 }
 .navbar .navbar-nav>li a,
 .navbar .navbar-header a,
