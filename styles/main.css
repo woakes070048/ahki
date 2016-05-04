@@ -96,6 +96,8 @@ h2.comingsoonlocal {
 }
 .team img {
   border-radius: 120px;
+  border: 1px solid #ededed;
+  padding: 5px;
 }
 .team .profile {
   color: gray;
@@ -130,7 +132,6 @@ h2.comingsoonlocal {
 .wufoo {
   padding: 30px;
 }
-
 
 /* Navbar
 Nav gray color: 3d3d3d
@@ -257,7 +258,6 @@ All transitions 0.3s */
   -ms-transform: rotate(0);
   -webkit-transform: rotate(0)
 }
-
 footer {
   border-top: 1px solid #ededed;
   padding-top: 10px;
