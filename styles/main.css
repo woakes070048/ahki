@@ -109,6 +109,7 @@ h2.comingsoonlocal {
   position: relative;
   padding-bottom: 50%; /* This is the aspect ratio */
   height: 0;
+  margin-top: 0px;
   overflow: hidden;
 }
 .google-maps iframe {
