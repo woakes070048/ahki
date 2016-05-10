@@ -1,2 +1,2 @@
 # Ahki
-Ahki is an online marketplace for people who like to feel good about where their dollars go.
+Ahki is an online marketplace where people can feel good about every dollar they spend.
