@@ -68,23 +68,6 @@ img.ahkilogo, img.locallogo {
 .thingslike h3 {
   margin-bottom: 20px;
 }
-.vertical-center {
-  min-height: 100%;
-  min-height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  width: 100%;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center
-}
 
 /* Local Page */
 div.local {
@@ -161,6 +144,11 @@ h2.comingsoonlocal {
 }
 .wufoo {
   padding: 30px;
+}
+
+/* Error Page */
+.errortron {
+  margin-top: 6em;
 }
 
 /* Navbar
